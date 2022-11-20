@@ -9,7 +9,7 @@ WITH
         ST_YMax(ST_Collect(geometry)) as y_max,
         ARRAY_TO_STRING(
 			ARRAY_AGG(
-				CONCAT('<path d="', ST_AsSVG(geometry), '" ', 'fill="none"', ' />')
+				CONCAT('<path d="', ST_AsSVG(geometry), '" ', 'fill="red"', ' />')
 			),''
 		) as svg FROM query
 	)
