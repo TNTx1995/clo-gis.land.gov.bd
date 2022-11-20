@@ -9,3 +9,7 @@ WITH
 SELECT
     CONCAT('<svg stroke="black" stroke-solid="3"  height="400" width="400" viewBox="',
         CONCAT_WS(' ', q.x_min, -1 * q.y_max, q.x_max-q.x_min, q.y_max-q.y_min), '">', q.svg, '</svg>') FROM q
+
+
+
+        
