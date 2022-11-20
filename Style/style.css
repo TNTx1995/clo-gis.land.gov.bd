@@ -1,4 +1,5 @@
-#map {
+#map,#plot,#plotInMap
+{
     width: 600px;
     height: 500px;
     border-style: solid;
@@ -10,13 +11,4 @@
   }
 
 
-  #plot {
-    width: 600px;
-    height: 500px;
-    border-style: solid;
-    margin: 25px 25px 25px 25px;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  }
+
