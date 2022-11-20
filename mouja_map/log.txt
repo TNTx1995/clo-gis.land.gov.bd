@@ -1,0 +1,6 @@
+Warning 1: /opt/django/mg2/mg2/media/files/ssd1/unknown-users/4cdbe651-e2e1-4f65-98d3-27cacb817983/2022-11-16_11-55-55/in/unnamed.gdb/a0000000a.gdbtablx could not be found. Trying to guess feature locations, but this might fail or return incorrect results
+Warning 6: Normalized/laundered field name: 'Shape_Length' to 'Shape_Leng'
+Warning 1: /opt/django/mg2/mg2/media/files/ssd1/unknown-users/4cdbe651-e2e1-4f65-98d3-27cacb817983/2022-11-16_11-55-55/in/unnamed.gdb/a0000000a.gdbtablx could not be found. Trying to guess feature locations, but this might fail or return incorrect results
+Warning 6: Normalized/laundered field name: 'Shape_Length' to 'Shape_Leng'
+Warning 1: /opt/django/mg2/mg2/media/files/ssd1/unknown-users/4cdbe651-e2e1-4f65-98d3-27cacb817983/2022-11-16_11-55-55/in/unnamed.gdb/a0000000a.gdbtablx could not be found. Trying to guess feature locations, but this might fail or return incorrect results
+Warning 6: Normalized/laundered field name: 'Shape_Length' to 'Shape_Leng'
