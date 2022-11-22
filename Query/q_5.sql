@@ -20,6 +20,4 @@ SELECT
 FROM q
 
 
-
-
         
