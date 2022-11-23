@@ -1,3 +1,8 @@
+
+
+
+// display the mouza map as a svg tag in html 
+
 WITH
     query AS (SELECT geom AS geometry FROM borolekh  ),
     q AS (SELECT

@@ -4,7 +4,7 @@
 
 
 
-
+// converting multipolygon to one polygon 
 
 WITH
     query AS (
@@ -16,7 +16,7 @@ WITH
                                             select 
                                             "geom"
                                             from mza_1
-                                            where "plot_no_en" in (1) 
+                                            where "plot_no_en" in (1,2,3,4) 
                                             ) 
                                     ),0.99 
                                 )

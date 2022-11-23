@@ -1,5 +1,9 @@
+
+
+// Display the specific plot from the mouza 
+
 WITH
-    query AS (SELECT geom AS geometry FROM borolekh ),
+    query AS (SELECT geom AS geometry FROM borolekh where plot_no_en = 1 ),
     q AS (SELECT
         ST_XMin(ST_Collect(geometry)) as x_min,
         ST_XMax(ST_Collect(geometry)) as x_max,

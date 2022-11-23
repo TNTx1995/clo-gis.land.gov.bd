@@ -1,7 +1,7 @@
 
 
 
-Marging between  multiple polygon !! 
+//Marging between  multiple polygon !! 
 
 
 SELECT 

@@ -1,3 +1,7 @@
+
+
+// To get the path of a specifc plot of the Mouza 
+
 WITH
     query AS (SELECT geom AS geometry FROM borolekh where plot_no_en = 1  ),
     q AS 
