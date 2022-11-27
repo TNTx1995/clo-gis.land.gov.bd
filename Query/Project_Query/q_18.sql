@@ -43,5 +43,10 @@ WITH
         ST_YMax(ST_Collect(U.geom)) as y_max,
         ARRAY_TO_STRING(ARRAY_AGG(CONCAT('<path d="', ST_AsSVG(T.geom), '" ', 'fill="green"','stroke="red"','stroke-width="3"' ,' />')),'') as svg FROM U,T
 	),
+    W AS(
+        SELECT CONCAT('<svg  height="400" width="400" viewBox="',
+        	CONCAT_WS(' ', V.x_min, -1 * V.y_max, V.x_max-V.x_min, V.y_max-V.y_min), '">', V.svg, '</svg>') AS Image FROM V
+ 
+    )
     
-SELECT T.geom FROM T;
+SELECT V.Image FROM V;
